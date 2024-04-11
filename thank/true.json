@@ -17,6 +17,16 @@ CCTV-14少儿,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/inde
 CCTV-16奥林,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV-17农业,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 
+风云剧场,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226950/index.m3u8
+第一剧场,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226959/index.m3u8
+世界地理,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226947/index.m3u8
+风云音乐,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226953/index.m3u8
+兵器科技,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226975/index.m3u8
+风云足球,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226984/index.m3u8
+高尔夫网球,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226978/index.m3u8
+央视台球,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226956/index.m3u8
+电视指南,http://39.134.18.195/dbiptv.sn.chinamobile.com/PLTV/88888893/224/3221226987/index.m3u8
+
 CGTN 法语频道,https://livefr.cgtn.com/1000f/prog_index.m3u8
 CGTN 俄语频道,http://liveru.cgtn.com/1000r/prog_index.m3u8
 CGTN 阿拉伯语频道,http://livear.cgtn.com/1000a/prog_index.m3u8
@@ -287,16 +297,6 @@ yMG新闻,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 
 文旅香港频道,http://ali-play.lezhibo.com/lezhibo/6ad788f1bbab4c689ecdc0d64a1e1601.m3u8
 文旅香港频道,http://ali-play.lezhibo.com:80/lezhibo/6ad788f1bbab4c689ecdc0d64a1e1601.m3u8
-
-中视频道,rtmp://220.130.201.73/sat/tv091
-华视频道,rtmp://220.130.201.73/sat/tv111
-台视频道,rtmp://220.130.201.73/sat/tv071
-民视频道,rtmp://220.130.201.73/sat/tv051
-纬来体育,rtmp://220.130.201.73/sat/tv721
-纬来育乐,rtmp://220.130.201.73/sat/tv701
-纬来日本,rtmp://220.130.201.73/sat/tv771
-东森超视,rtmp://220.130.201.73/sat/tv331
-
 民视频道,rtmp://f13h.mine.nu/sat/tv051
 台视频道,rtmp://f13h.mine.nu/sat/tv071
 中视频道,rtmp://f13h.mine.nu/sat/tv091
@@ -308,6 +308,15 @@ yMG新闻,http://l.cztvcloud.com/channels/lantian/SXyuhang1/720p.m3u8
 MoMo综合,rtmp://f13h.mine.nu/sat/tv761
 ELEVEN体育1,rtmp://f13h.mine.nu/sat/tv731
 ELEVEN体育2,rtmp://f13h.mine.nu/sat/tv741
+中视频道,rtmp://220.130.201.73/sat/tv091
+华视频道,rtmp://220.130.201.73/sat/tv111
+台视频道,rtmp://220.130.201.73/sat/tv071
+民视频道,rtmp://220.130.201.73/sat/tv051
+纬来体育,rtmp://220.130.201.73/sat/tv721
+纬来育乐,rtmp://220.130.201.73/sat/tv701
+纬来日本,rtmp://220.130.201.73/sat/tv771
+东森超视,rtmp://220.130.201.73/sat/tv331
+
 番薯音乐,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
 
 DJ音乐,#genre#
