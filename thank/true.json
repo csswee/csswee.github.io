@@ -329,9 +329,7 @@ TVB翡翠频道,https://iptv.hiper25.com/TVB/video.m3u8
 TVB翡翠频道,http://221.1.217.6:8191/HK/tvb/hls.m3u8
 TVB翡翠频道,http://113.88.66.42:8000/bysid/1
 TVB翡翠频道,http://125.124.206.142:18081/GN/gdfc2/hls.m3u8
-TVB明珠频道,https://iptv.hiper25.com/Pearl/video.m3u8
-TVB明珠频道,http://113.88.66.42:8001/bysid/2
-TVB明珠频道,http://nz189l149.bb27109.ctm.net:8892/bysid/2
+TVB明珠频道,http://[2409:8087:1a01:df::4003]/PLTV/88888888/224/3221225649/index.m3u8
 
 DJ音乐,#genre#
 DJ舞曲《让我做你的眼睛》,https://vd2.bdstatic.com/mda-mhaargrart2qrkdz/1080p/cae_h264/1629630942996744682/mda-mhaargrart2qrkdz.mp4
@@ -490,7 +488,7 @@ DJ情歌《昨夜的我又梦到了你》《心上的人儿你在哪》等HD,htt
 密云古水北镇,https://gcalic.v.myalicdn.com/gc/dlst03_1/index.m3u8?contentid=2820180516001
 ​黄花城水长城,https://gcalic.v.myalicdn.com/gc/wgw01_1/index.m3u8?contentid=2820180516001
 ​成都环球中心,https://gcalic.v.myalicdn.com/gc/jsh02_1/index.m3u8?contentid=2820180516001
-北京实时直播,https://pl1.cloud.dayang.com.cn/live/10062_fM1juP.m3u8
+南锣鼓巷,http://[2409:8087:1a01:df::4003]/PLTV/88888888/224/3221225649/index.m3u8
 
 影视频道,#genre#
 巴豆侠电影81,http://43.138.170.29:35455/douyu/3870925
