@@ -1,5 +1,4 @@
 央视频道,#genre#
-巴豆侠音乐台,https://ali-adaptive.pull.yximgs.com/gifshow/A303Yv8TYCo_avc.flv?auth_key=1714068820-0-0-e90b187433a269437a509670532f2564&tsc=origin&oidc=watchmen&sidc=204180&fd=1&ss=s20&kabr_spts=-5000
 巴豆侠直播,https://ldncctvwbndhwy.cntv.myhwcdn.cn/ldncctvwbnd/ldcctv1_2/index.m3u8
 CCTV-01综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV-02财经,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226540/index.m3u8
@@ -17,9 +16,6 @@ CCTV-13新闻,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/inde
 CCTV-14少儿,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225732/index.m3u8
 CCTV-16奥林,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 CCTV-17农业,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
-
-
-
 CGTN 法语频道,https://livefr.cgtn.com/1000f/prog_index.m3u8
 CGTN 俄语频道,http://liveru.cgtn.com/1000r/prog_index.m3u8
 CGTN 阿拉伯语频道,http://livear.cgtn.com/1000a/prog_index.m3u8
@@ -27,9 +23,9 @@ CGTN 西班牙语频道,http://livees.cgtn.com/500e/prog_index.m3u8;http://livee
 CGTN 纪录频道,https://livedoc.cgtn.com/500d/prog_index.m3u8
 
 音乐频道,#genre#
-巴豆侠音乐1,https://ali-adaptive.pull.yximgs.com/gifshow/A303Yv8TYCo_avc.flv?auth_key=1714068820-0-0-e90b187433a269437a509670532f2564&tsc=origin&oidc=watchmen&sidc=204180&fd=1&ss=s20&kabr_spts=-5000
-巴豆侠音乐2,https://pull-flv-l6.douyincdn.com/third/stream-115022806797516839.flv?k=6a393be5c92d3c30&t=1714587240&abr_pts=-800&_session_id=037-202404250214009A2D010EA9B430722589.1713982456654.44927
-巴豆侠音乐3,https://ali-adaptive.pull.yximgs.com/gifshow/6GH-z-mrd7I_hd2000.flv?auth_key=1714069021-0-0-0d90ba90c9d3854c571c614c13d7732f&tsc=origin&oidc=watchmen&sidc=5526&fd=1&ss=s20&kabr_spts=-5000
+
+巴豆侠音乐台2,https://pull-flv-l6.douyincdn.com/third/stream-115022806797516839.flv?k=6a393be5c92d3c30&t=1714587240&abr_pts=-800&_session_id=037-202404250214009A2D010EA9B430722589.1713982456654.44927
+巴豆侠音乐台3,https://ali-adaptive.pull.yximgs.com/gifshow/6GH-z-mrd7I_hd2000.flv?auth_key=1714069021-0-0-0d90ba90c9d3854c571c614c13d7732f&tsc=origin&oidc=watchmen&sidc=5526&fd=1&ss=s20&kabr_spts=-5000
 
 卫视频道,#genre#
 凤凰中文频道,http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
