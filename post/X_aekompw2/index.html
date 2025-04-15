@@ -1,0 +1,212 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>小米CR660X路由器刷回原厂固件 | .......</title>
+<link rel="shortcut icon" href="https://u.226626.xyz/favicon.ico?v=1744709729031">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://u.226626.xyz/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="小米CR660X路由器刷回原厂固件 | ....... - Atom Feed" href="https://u.226626.xyz/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="风险警告
+刷机有风险，可能会变砖
+请认真评估自己的风险承受能力再继续
+对于可能造成的任何直接和间接的损失本人不承担任何责任
+小米CR660X路由器刷回原厂固件
+以下为小米CR660X(CR6606 CR6608 CR6609)路由器在刷了o..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+	2
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://u.226626.xyz">
+  <img class="avatar" src="https://u.226626.xyz/images/avatar.png?v=1744709729031" alt="">
+  </a>
+  <h1 class="site-title">
+    .......
+  </h1>
+  <p class="site-description">
+    .................
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              小米CR660X路由器刷回原厂固件
+            </h2>
+            <div class="post-info">
+              <span>
+                2025-04-15
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>风险警告<br>
+刷机有风险，可能会变砖<br>
+请认真评估自己的风险承受能力再继续<br>
+对于可能造成的任何直接和间接的损失本人不承担任何责任</p>
+<p>小米CR660X路由器刷回原厂固件<br>
+以下为小米CR660X(CR6606 CR6608 CR6609)路由器在刷了op-boot和OpenWrt系统后，刷回原厂固件的步骤</p>
+<p>1.在op-boot下刷过渡固件，选择文件openwrt-ramips-mt7621-xiaomi_mi-router-cr660x-squashfs-factory.bin，点恢复固件按钮。</p>
+<p>2.刷好过渡固件后，用ssh客户端登陆OpwnWrt系统，用户名root，密码password<br>
+用WinSCP将firmware和Bootloader分区的备份复制到/tmp/bin目录后执行下面的命令</p>
+<p>insmod mtd-rw.ko i_want_a_brick=1 #载入kmod-mtd-rw 模块,使分区可写<br>
+mtd write firmware.bin firmware<br>
+mtd write firmware.bin firmware1 #此条语句可能是不需要的<br>
+mtd write Bootloader.bin Bootloader<br>
+reboot</p>
+<p>3.重启路由器进入官方系统，先使用通用方法获取官方固件的ROOT权限，可以参考梦程的教程小米CR660X路由器刷机教程</p>
+<p>非常感谢梦程的教程，大家可以参考一下。</p>
+<p>4.获取ROOT权限后，用WinSCP把解锁工具mitool_mips(可从视频配套资料中下载)复制到/tmp目录，执行下面代码解锁分区<br>
+cd /tmp<br>
+chmod +x mitool_mip<br>
+./mitool_mip unlock</p>
+<p>5.执行完步骤4系统会自动重启，重启后重新获取ROOT权限，用WinSCP把以下分区备份复制到/tmp/bin目录（如果没有自己的备份，可以使用我的视频配套资料中的文件）<br>
+firmware.bin<br>
+kernel.bin<br>
+rootfs.bin<br>
+rootfs_data.bin<br>
+obr.bin<br>
+执行如下命令恢复分区<br>
+mtd write firmware.bin firmware<br>
+mtd write firmware.bin firmware1<br>
+mtd write kernel.bin kernel<br>
+mtd write rootfs.bin rootfs<br>
+mtd write rootfs_data.bin rootfs_data<br>
+mtd write obr.bin obr<br>
+到此如果不需要固化ROOT权限，可以执行mtd erase crash锁定分区，结束任务</p>
+<p>6.如果需要固化ROOT权限，继续用WinSCP把解锁工具(可从视频配套资料中下载)mitool_mips复制到/tmp目录，执行下面代码固化ROOT权限<br>
+cd /tmp<br>
+chmod +x mitool_mip<br>
+./mitool_mip hack<br>
+此代码执行完毕后会自动固化ROOT权限，并锁定分区后重启。</p>
+<p>7.目前只能固化telnet权限，ssh权限需要在每次重启后登陆telnet，执行下面代码获取<br>
+sed -i 's/channel=.*/channel=&quot;debug&quot;/g' /etc/init.d/dropbear<br>
+/etc/init.d/dropbear start</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://u.226626.xyz/post/MgaaGO35L3/">
+              <h3 class="post-title">
+                斐讯K2 E1 刷老毛子Padavan中继图文教程（与主路由同网段）
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="" target="_blank">u.226626.xyz</a>
+  <a class="rss" href="https://u.226626.xyz/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

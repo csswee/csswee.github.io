@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://u.226626.xyz</id>
+    <title>.......</title>
+    <updated>2025-04-15T09:35:55.214Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://u.226626.xyz"/>
+    <link rel="self" href="https://u.226626.xyz/atom.xml"/>
+    <subtitle>.................</subtitle>
+    <logo>https://u.226626.xyz/images/avatar.png</logo>
+    <icon>https://u.226626.xyz/favicon.ico</icon>
+    <rights>All rights reserved 2025, .......</rights>
+    <entry>
+        <title type="html"><![CDATA[小米CR660X路由器刷回原厂固件]]></title>
+        <id>https://u.226626.xyz/post/X_aekompw2/</id>
+        <link href="https://u.226626.xyz/post/X_aekompw2/">
+        </link>
+        <updated>2025-04-15T09:33:36.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[斐讯K2 E1 刷老毛子Padavan中继图文教程（与主路由同网段）]]></title>
+        <id>https://u.226626.xyz/post/MgaaGO35L3/</id>
+        <link href="https://u.226626.xyz/post/MgaaGO35L3/">
+        </link>
+        <updated>2025-04-15T09:28:49.000Z</updated>
+    </entry>
+</feed>
